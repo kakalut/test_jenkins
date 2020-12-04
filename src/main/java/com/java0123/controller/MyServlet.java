@@ -14,7 +14,7 @@ public class MyServlet extends HttpServlet {
 
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        req.setAttribute("message","hello jenkins!!---44444444");
+        req.setAttribute("message","hello jenkins!!---5555");
         req.getRequestDispatcher("/WEB-INF/jsp/welcome.jsp").forward(req,resp);
     }
 }
