@@ -6,7 +6,7 @@
     <packaging>war</packaging>
     <groupId>com.java0123</groupId>
     <artifactId>test_jenkins1</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1</version>
     <build>
         <plugins>
             <!-- web.xml is missing and <failOnMissingWebXml> is set to true -->
