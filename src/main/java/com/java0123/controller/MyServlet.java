@@ -14,7 +14,7 @@ public class MyServlet extends HttpServlet {
 
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        req.setAttribute("message","hello jenkins!!---5555_2020年12月28日下午14：28分提交");
+        req.setAttribute("message","if it no chinese jenkeins can run");
         req.getRequestDispatcher("/WEB-INF/jsp/welcome.jsp").forward(req,resp);
     }
 }
