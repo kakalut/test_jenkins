@@ -14,7 +14,7 @@ public class MyServlet extends HttpServlet {
 
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        req.setAttribute("message","this time really no chinese jenkeins can run  加中文?加中文测试是否会受本机加密软件的影响.....2");
+        req.setAttribute("message","this time really no chinese jenkeins can run  加中文?加中文测试是否会受本机加密软件的影响.....3");
         req.getRequestDispatcher("/WEB-INF/jsp/welcome.jsp").forward(req,resp);
     }
 }
